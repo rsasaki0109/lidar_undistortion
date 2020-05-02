@@ -1,7 +1,7 @@
 lidar_undisrtoriton
 ====
 
-header-only program of 3d lidar undistortion using 9-axis imu
+A header-only program of 3d lidar undistortion using 9-axis imu.
 separated from [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM).  
 The assumption is that the IMU center and the LIDAR center are aligned.
 ## how to use
