@@ -18,11 +18,12 @@ when imu is received
 Eigen::Vector3f angular_velo{...};
 Eigen::Vector3f acc{...};
 Eigen::Quaternionf quat{...};
-double imu_time = ...
+double imu_time = ...;
 lidar_undistortion_.getImu(angular_velo, acc, quat, imu_time);
 ```
 when LIDAR scan is received
 ```cpp
+double scan_time = ...;
 // output:cloud_ptr
 lidar_undistortion_.adjustDistortion(cloud_ptr, scan_time);
 ```
