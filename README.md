@@ -3,7 +3,7 @@ lidar_undisrtoriton
 
 header-only program of 3d lidar undistortion using 9-axis imu
 separated from [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM).  
-It argues that the IMU center and the LIDAR center are aligned.
+The assumption is that the IMU center and the LIDAR center are aligned.
 ## how to use
 Initialization
 ```cpp
